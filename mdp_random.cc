@@ -300,7 +300,7 @@ main (int argc, char *argv[])
     std::string csvFile = "";
 
     bool enableNetAnim        = false;              // MOI: bat/tat xuat file .xml cho NetAnim
-    std::string animFile      = "mdp_anim.xml";     // MOI: ten file .xml goc (se them _runN neu numRuns>1)
+    std::string animFile      = "mdp_demo.xml";     // MOI: ten file .xml goc (se them _runN neu numRuns>1)
 
     double onTimeMean       = 1.0;
     double offTimeMean      = 0.2;
