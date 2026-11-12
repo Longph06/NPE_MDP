@@ -111,7 +111,7 @@ Các tệp đầu ra:
 | rngRun | 1 |
 | numRuns | 10 |
 | enableNetAnim | false |
-| animFile | mdp_anim.xml |
+| animFile | mdp_demo.xml |
 | ON period | 1.0 giây |
 | OFF period | 0.2 giây |
 | startJitter | 0 |
@@ -182,7 +182,7 @@ Do đó, nếu không bật tùy chọn này, chương trình sẽ không xuất
 
 ./ns3 run "scratch/mdp_random --algo=MDPRED --nLeaf=10 --simTime=25 --numRuns=1 --enableNetAnim=true --animFile=mdp_demo.xml"
 
-Sau khi chạy thành công, tệp mdp_anim.xml sẽ được tạo trong thư mục làm việc của chương trình.
+Sau khi chạy thành công, tệp mdp_demo.xml sẽ được tạo trong thư mục làm việc của chương trình.
 
 Có thể mở tệp XML bằng NetAnim để quan sát mô hình mạng.
 
